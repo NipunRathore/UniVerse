@@ -1,0 +1,54 @@
+.tags-h1 {
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.tags-p1 {
+  margin: 0px;
+  font-size: 20px;
+  /* font-weight: ; */
+}
+
+.tags-p {
+  margin: 0px;
+  font-size: 15px;
+}
+
+.tags-list-container {
+  padding: 30px 0px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.tag {
+  padding: 10px;
+  border: solid 2px #e9dfdf;
+  /* border-radius: 5px; */
+  border-radius: 2px;
+
+  transition-property: background-color, border-radius;
+	transition-duration: 0.5s;
+	transition-delay: 0s;
+	transition-timing-function: linear;
+}
+
+.tag:hover{
+  background-color: rgb(223, 221, 221);
+  font-color: white;
+  font-weight: bold;
+}
+
+.tag h5 {
+  display: inline-block;
+  margin: 10px 0px;
+  padding: 5px 5px;
+  background-color: #e1ecf4;
+  color: #39739d;
+}
+
+.tag p {
+  font-size: 14px;
+  color: #323232;
+  line-height: 17px;
+}
